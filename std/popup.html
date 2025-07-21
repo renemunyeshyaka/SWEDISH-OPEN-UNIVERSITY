@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../css/popup.css" >
+    <title>Popup Box</title>
+</head>
+<body>
+     
+
+     <div class="container">        
+        <button type="submit" class="btn" onclick="openPopup()">Click Me</button> 
+        
+        <div class="popup" id="popup">
+            <img src="../css/v2.png">
+            <h2>Thank You! </h2>
+            <p>Welcome to the Students' Management System</p>
+            <p>Coming Soon ...</p>
+             <button type="button" onclick="closePopup()"> OK </button>
+            <!-- <a href="index2.html"> <button type="button" onclick="closePopup()"> OK </button></a> -->
+        </div> &nbsp; &nbsp;&nbsp;
+        <div >        
+        
+            <a href="swedishopenuniversity.se">    <button type="submit" class="btn" >Go Back</button> </a>
+            
+         </div>
+     </div>
+
+     
+
+     <script>
+        let popup = document.getElementById("popup"); 
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+     </script>
+    
+</body>
+</html>

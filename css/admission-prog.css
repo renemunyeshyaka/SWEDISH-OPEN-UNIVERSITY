@@ -1,0 +1,73 @@
+.container__background {
+    background: var(--color-bg1);
+    padding: 3rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+.bg-text {
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bg-text h1, h2 {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.bg-text p ,h3,h4 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+.umubare ol li {
+    margin-left: 3rem;
+    list-style-type: style; 
+}
+
+.umubare ol li ul li {
+    margin-left: 3rem;
+    list-style-type:disc;
+    size: 2rem;
+}
+.umubare span p{
+    padding-top: 0rem;
+    margin-left: 1rem;
+ }
+
+ .btn {
+    margin-top: 1rem;
+ }
+
+
+ @media screen and (max-width: 1024px) {
+    .bg-text p ,h3,h4 {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+           
+    .umubare ol li {
+        margin-left: 1rem;
+        
+    }
+    .umubare span p{
+        padding-top: 0rem;
+        margin-left: 1rem;
+     }
+
+ }
+
+ @media screen and (max-width: 600px) {
+    .umubare ol li {
+        margin-left: 0.8rem;
+        
+    }
+    .umubare span p{
+        padding-top: 0rem;
+        margin-left: 0.7rem;
+     }
+
+ }

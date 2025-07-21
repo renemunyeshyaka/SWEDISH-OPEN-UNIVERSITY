@@ -1,0 +1,112 @@
+/* ================= Admissions ================= */
+
+.admissions{
+    margin-top: 3rem;
+    background: var(--color-bg);
+    height: 42rem;
+}
+.admissions h1 {
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.admissions__container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+} 
+
+.admissions__left {
+    margin-right: 4rem;
+}
+
+.admissions__left p {
+    margin: 1rem 0 3rem;
+    text-align: justify;
+}
+.admissions__right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.admission {
+    background: var(--color-bg2);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+    height: 50vh;
+    cursor: pointer;
+}
+.admission:hover{
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.admission:nth-child(1) .admission__icon{
+    background: var(--color-blue);
+}
+.admission:nth-child(2) .admission__icon{
+    background: var(--color-danger);
+}
+.admission:nth-child(3) .admission__icon{
+    background: var(--color-primary);
+}
+
+.admission__icon {
+    background: var(--color-bg);
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+}
+.admission h5{
+    margin: 2rem 0 1rem;
+}
+
+.admission p{
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+
+/* ================= Admissions ================= */
+
+/* ================= Responsive Design ================= */
+
+/* ================= MEDIA QUEREIS (TABLETS) ================= */
+
+
+@media screen and (max-width: 1024px) {
+    
+/* ================= Programme admissions ================= */
+
+    .admissions {
+        height: auto;
+    }
+    .admissions__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .admissions__left {
+        margin-right: 0;
+    }
+
+
+}
+
+/* ================= MEDIA QUERIES (PHONES) ================= */
+
+@media screen and (max-width: 600px) {
+/* ================= Programme admissions ================= */
+
+    .admissions__right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    .admission {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .admission__icon {
+        margin-top: 2px;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content=" The Swedish Open University, or 'Öppett Sverge Universitetet' in Swedish, is a distance learning institution that provides flexible and accessible higher education to students in Sweden and all over the world.">
+    <meta name="keywords" content="Swedish Open University, Dr. Jean Pierre SINDAMBIWE, undergraduate, Postgraduate, and PhD Programmes">
+    <meta name="author" author="Jean René MUNYESHYAKA">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System | Swedish Open University </title>
+    <link rel="stylesheet" href="css/reg.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- 
+        https://remixicon.com/
+        https://github.com/Remix-Design/remixicon#usage
+     -->
+
+</head>
+<body>
+    <div id="page" class="site">
+        <header>
+            <div class="container">
+                <div class="logo"><a href="#">Swedish Open University</a></div>
+            </div>
+        </header>
+        <main>
+            <div class="form-box">
+                <div class="top">
+                    <div class="container">
+                        <ul>
+                            <li class="indicator active"><a href="#"><i class="ri-checkbox-blank-circle-line"></i></a> Choose Field </li>
+                            <li class="indicator"><a href="#"><i class="ri-checkbox-blank-circle-line"></i></a> Your Profile</li>
+                            <li class="indicator"><a href="#"><i class="ri-checkbox-blank-circle-line"></i></a> Your Story </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- top -->
+                <div class="container">
+                    <form action="" id="student_form" name="student_form">
+                        <div class="field form-child active">
+                            <h2>Choose Programme of Study, </br>you are interested in</h2>
+                            <div class="wrapper" id="wrapper">
+                                <div class="faculty">
+                                    <div class="icon undergraduate"><i class="ri-refund-2-line ri-2x"></i></div>
+                                    <h3>Undergraduate</h3>
+                                    <ul>
+                                        <li>
+                                            <input type="radio" name="faculty[undergraduate]" value="BSc Sustainable Business Management" id="1">
+                                            <label for="1"> BSc Sustainable Business Management </label>
+                                        </li>
+
+                                        <li>
+                                            <input type="radio" name="faculty[undergraduate]" value="BSc Sustainable Entrepreneurship Management" id="2">
+                                            <label for="2"> BSc Sustainable Entrepreneurship Management </label>
+                                        </li>
+
+                                        <li>
+                                            <input type="radio" name="faculty[undergraduate]" value="BSc International Finance" id="3">
+                                            <label for="3"> BSc International Finance </label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                               
+                                    <div class="faculty">
+                                        <div class="icon postgraduate"><i class="ri-quill-pen-line ri-2x"></i></div>
+                                        <h3>Postgraduate</h3>
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="faculty[postgraduate]" value="MBA-Master of Business Administration" id="4">
+                                                <label for="4"> MBA-Master of Business Administration </label>
+                                            </li>
+    
+                                            <li>
+                                                <input type="radio" name="faculty[postgraduate]" value="Msc in Business Digitalization" id="5">
+                                                <label for="5"> Msc in Business Digitalization </label>
+                                            </li>
+    
+                                            <li>
+                                                <input type="radio" name="faculty[postgraduate]" value="Msc in Financial Economics" id="6">
+                                                <label for="6"> Msc in Financial Economics</label>
+                                            </li>
+
+                                            <li>
+                                                <input type="radio" name="faculty[postgraduate]" value="Msc in Global Management" id="7">
+                                                <label for="7"> Msc in Global Management </label>
+                                            </li>
+    
+                                            <li>
+                                                <input type="radio" name="faculty[postgraduate]" value="Msc in Responsible Social entrepreneurship" id="8">
+                                                <label for="8"> Msc in Responsible Social entrepreneurship </label>
+                                            </li>
+    
+                                            <li>
+                                                <input type="radio" name="faculty[postgraduate]" value=" Msc in Sustainable Entrepreneurship" id="9">
+                                                <label for="9"> Msc in Sustainable Entrepreneurship</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="faculty[postgraduate]" value="Msc in Sustainable Business Management" id="10">
+                                                <label for="10"> Msc in Sustainable Business Management</label>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
+
+                                <div class="faculty">
+                                    <div class="icon development"><i class="ri-home-heart-line ri-2x"></i></div>
+                                    <h3>Professional Courses</h3>
+                                    <ul>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="Digital business" id="11">
+                                            <label for="11"> Digital business </label>
+                                        </li>
+
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="Software development" id="12">
+                                            <label for="12"> Software development </label>
+                                        </li>
+
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="Web development" id="13">
+                                            <label for="13"> Web development </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="Networking" id="14">
+                                            <label for="14"> Networking </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="DevOps" id="15">
+                                            <label for="15"> DevOps </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="CyberOps" id="16">
+                                            <label for="16"> CyberOps </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="CyberOps" id="16">
+                                            <label for="16"> Digital product design  </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="CyberOps" id="16">
+                                            <label for="16"> Interior design  </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="CyberOps" id="16">
+                                            <label for="16"> FinTech solutions  </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="CyberOps" id="16">
+                                            <label for="16"> Sales Leadership  </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="CyberOps" id="16">
+                                            <label for="16">  Project management </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="faculty[career-business-development]" value="CyberOps" id="16">
+                                            <label for="16">  Innovation and product design </label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                
+                                    <!-- <div class="faculty">
+                                        <div class="icon computer"><i class="ri-computer-line ri-2x"></i></div>
+                                        <h3>Computer Science</h3>
+                                        <ul>
+                                            <li>
+                                                <input type="radio" name="faculty[networking]" value="Networking" id="10">
+                                                <label for="10"> Networking </label>
+                                            </li>
+    
+                                            <li>
+                                                <input type="radio" name="faculty[software-engineering]" value="Software Engineering" id="11">
+                                                <label for="11"> Software Engineering </label>
+                                            </li>
+    
+                                            <li>
+                                                <input type="radio" name="faculty[information-system]" value="Information System" id="12">
+                                                <label for="12"> Information System </label>
+                                            </li>
+
+                                            <li>
+                                                <input type="radio" name="faculty[information-technology]" value="Information Technology" id="13">
+                                                <label for="13"> Information Technology </label>
+                                            </li>
+    
+                                        </ul>
+                                    </div> -->
+
+                            </div>
+                            <div class="wrapper">
+                                <div class="highlight">
+                                    <div class="head">
+                                        <div class="thumbnail"> 
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="split">
+                                            <div class="name">
+                                                <h4>
+                                                    <strong class="firstname">Sarah</strong> 
+                                                    <strong class="lastname">Farah</strong>
+                                                </h4>
+                                                <span>
+                                                    <div class="span month"> March </div>
+                                                    <div class="span date"> 27 </div>
+                                                    <div class="span month"> 2023</div>
+                                                </span>
+                                                <div class="devider"></div>
+                                                <div class="country">
+                                                    <span class="nationalisty">Germany</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <nav>
+                                <a href="" class="prev"> Back</a>
+                                <a href="" class="next"> Continues</a>
+                                <a href="" class="submit">submit</a>
+                            </nav>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/reg.js"> </script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+
+
+/* ================= librarys ================= */
+
+/* ============= librarys Section ============== */
+
+
+section{
+    margin-top: 3rem;
+    position: relative;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;    
+}
+section .main{
+    width: 98%;
+    height: auto;
+    margin: 1rem 2rem;
+    display: flex;
+    padding: 5rem 1rem 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-image: linear-gradient(rgba(0,8,51,0.8),rgba(0,8,51,0.8)), url(../media/university-library-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+section .main .searchBx {
+    position: relative;
+    padding-top: 3rem;
+    width: 100%;
+}
+section .main .searchBx .query {
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3rem;
+    padding-left: 70px;
+    padding-right: 60px;
+
+}
+section .main .searchBx .icons {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    align-items: center;
+    pointer-events: none;
+}
+
+section .main .searchBx .icons img{
+    max-width: 100%;
+    padding-top: 3rem;
+}
+
+
+section .main .searchBtn{
+    margin: 0 1rem;
+    margin-top: 2rem;
+    padding: 12px 20px;
+    background: rgba(255,255,255,0.2);
+    color: #ccc;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+}
+
+section .main .searchBtn:hover{
+    border: 1px solid yellow;
+    background: var(--color-bg1);
+}
+
+.library-title {
+    padding-top: 2rem;
+    height: auto; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.library-title h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.library-title p{
+    text-align: justify;
+    padding-top: 1rem;
+}
+
+.library-title ol li {
+    text-align: justify;
+    padding-top: 1rem;
+    list-style-type: style;
+}
+.library-title ol{
+    padding-left: 2rem;
+}
+.three-column-style {
+    display: inline-flex;
+    grid-template-columns: 33.33%, 33.33%, 33.33%;
+    gap: 1rem;
+    width: auto;
+}
+.column {
+    padding: 5px;
+    height: auto;
+    margin: 3px;
+    background-color: #cccccc;
+  }
+  .column-2 {
+    padding: 5px;
+    height: auto;
+    margin: 3px;
+    background-color: #cccccc;
+  }
+
+  .column-3 {
+    padding: 5px;
+    height: auto;
+    margin: 3px;
+    background-color: #cccccc;
+  }
+
+.library-title ol li, .column {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* ================= librarys ================= */
+
+/* ================= Responsive Design ================= */
+
+/* ================= MEDIA QUEREIS (TABLETS) ================= */
+
+
+@media screen and (max-width: 1024px) {
+    
+/* ================= library librarys ================= */
+    section .main{
+        width: 95%;
+        padding: 2rem 2rem 2rem;
+    }
+    .three-column-style {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: auto;
+    }
+
+
+}
+
+/* ================= MEDIA QUERIES (PHONES) ================= */
+
+@media screen and (max-width: 600px) {
+/* ================= library librarys ================= */
+    section .main{
+        width: 98%;
+        padding: 1rem 1rem 1rem;
+    }
+    .library-title ol{
+        padding-left: 1rem;
+    }
+    .three-column-style {
+        display: grid;
+        gap: 1rem;
+        width: auto;
+    }
+}

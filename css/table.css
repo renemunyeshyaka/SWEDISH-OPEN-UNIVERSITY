@@ -1,0 +1,182 @@
+.container__prog__application{
+    background: #d5dbe2;
+    color: #000;
+    margin:2rem;
+    margin-top: 7rem;
+    padding-bottom: 2rem;
+    padding-top: .2rem;
+    border-radius: 1rem;
+}
+
+h1, .title {
+    background: transparent;
+    color: #000;
+}
+.space-title{
+    background: #808b96;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1, .title:hover{
+    background:#04AA6D;
+    color: #fff;
+}
+
+.prog__application{
+    padding-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.overview_apply{
+    padding: 1rem;
+}
+
+.container__prog__details, .prog__details, .application_table{
+    padding: 2rem;
+    align-self: center;
+    align-items: center;
+}
+
+.application {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .application td, #application th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .application tr:nth-child(even){background-color: #c2bebe;}
+  
+  .application tr:hover {
+    background-color: #a9a4a4;
+    cursor: pointer;
+}
+
+.application th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.application td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    background-color: transparent;
+    color: black;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other_details{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.overview_apply,.other_details, .text{
+    padding: 1rem;
+    text-align: justify;
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container__prog__details, .prog__details, .application_table{
+        padding: 1.2rem;
+    }
+    .application th{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 1rem;
+        padding-right: 1rem;        
+    }
+    
+    .application td{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 1rem;
+        padding-right: 1rem;        
+    }
+
+    .other_details{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .application {
+        width: auto;
+    }
+    .application td, #application th {
+        padding: 4px;
+      }
+      .container__prog__application{
+        margin:.5rem;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        padding-top: .1rem;
+        border-radius: 1rem;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px){
+    .container__prog__details, .prog__details, .application_table{
+        padding: 1rem;
+    }
+    .application th{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;        
+    }
+    
+    .application td{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;        
+    }
+    .other_details{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .space {
+        margin-top: 1rem;
+    }
+    .application {
+        width: auto;
+        margin-left: 0rem;
+        margin-right: 2rem;
+      }
+      .application td, #application th {
+        padding: 1px;
+      }
+
+      .container__prog__application{
+        margin:.5rem;
+        margin-top: 7rem;
+        padding-bottom: 1rem;
+        padding-top: .1rem;
+        border-radius: 1rem;
+    }
+
+
+
+}

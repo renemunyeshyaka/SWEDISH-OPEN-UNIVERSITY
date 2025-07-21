@@ -1,0 +1,108 @@
+
+
+/* ================= librarys ================= */
+
+/* ============= librarys Section ============== */
+
+.library-header {
+    position: relative;
+    top: 1rem;
+    height: auto;
+}
+
+.a-z-library {
+    position: relative;
+    display: inline;
+    grid-template-columns: 2 1fr;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.a-z-library, h2 {
+    margin-top: 2rem;
+}
+
+ .search-bar {
+    background: transparent;
+ }
+
+ .gcse-search {
+    width: 50%;
+    height: auto;
+ }
+
+.library{
+    position: relative;
+    top: 1rem;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+
+.library__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+
+
+.library__left p{
+    margin: 1rem 0 2.4rem;
+}
+
+.library__right-image {
+    border-radius: 10px;
+}
+
+
+/* ================= librarys ================= */
+
+/* ================= Responsive Design ================= */
+
+/* ================= MEDIA QUEREIS (TABLETS) ================= */
+
+
+@media screen and (max-width: 1024px) {
+    
+/* ================= library librarys ================= */
+
+.library {
+    height: 52vh;
+    margin-bottom: 4rem;
+}
+
+.library__container {
+    gap: 0;
+    padding-bottom: 3rem;
+}
+
+}
+
+/* ================= MEDIA QUERIES (PHONES) ================= */
+
+@media screen and (max-width: 600px) {
+/* ================= library librarys ================= */
+
+.library {
+    height: 100%;
+}
+.library__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.btn {
+    margin-bottom: 0.7rem;
+}
+
+.library_left p {
+    margin-bottom: 1.2rem;
+}
+}
